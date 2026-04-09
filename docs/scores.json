@@ -1,0 +1,9 @@
+{
+  "soundness": 3,
+  "novelty": 6,
+  "significance": 4,
+  "clarity": 5,
+  "evidence_quality": 3,
+  "overall": 4,
+  "justification": "While the paper is well-motivated and the two-stage separation of level vs. speed effects is conceptually interesting, core methodological issues undermine credibility. The audits flag a critical inconsistency between the claimed System GMM approach and a static fixed-effects implementation, under-specified synthetic DGP and steady-state construction, missing IV identification/diagnostics, a generated-regressor inference gap, and timing/indexing ambiguities; the numerical audit also finds an observation-count inconsistency. Evidence is based on a single synthetic draw without Monte Carlo validation or first-stage IV results, and figures lack uncertainty depiction. As a result, despite moderate originality, the current evidence and rigor are insufficient for strong claims, leading to a below-threshold overall assessment."
+}
